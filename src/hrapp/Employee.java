@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package duke.choice;
+package hrapp;
 
 /**
  *
@@ -15,7 +15,7 @@ public class Employee {
     private String name;
     private double salary;
 
-    //private Employee[] emps;
+    
     public Employee(int ID, String name, double salary) {
         this.ID = ID;
         this.name = name;
@@ -48,7 +48,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return getID() + " " + getName() + " " + getSalary();
+        return "Employee: " + getID() + " " + getName() + " " + getSalary();
     }
 
 }
